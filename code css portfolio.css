@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&display=swap');
+
+html {
+    scroll-behavior: smooth; /* Active un défilement fluide */
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header{
+    border: 20px solid #003366 	;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366 	;
+    opacity: 0.8;
+    color: white;
+    position: fixed;
+    z-index: 10;
+    width: 98%;
+    font-family: 'Montserrat' , sans-serif;
+    
+}
+
+header nav a {
+    text-decoration: none; /* Enlève la soulignure par défaut */
+    color: white; /* Change la couleur du texte en blanc */
+    font-size: 90%;
+    padding: 10px;
+    transition: font-size 0.3s ease
+}
+
+header nav a:hover {
+    color: black; /* Change la couleur du texte au survol en bleu foncé */
+    font-size: 110%;
+    text-decoration: underline;
+}
+
+
+.header1 , .header2 , .header3{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 125%;
+    color: aliceblue;
+}
+
+.header4{
+    margin-left: auto;
+    font-size: 150%;
+
+}
+
+.Quisuisje {
+    background-image: url('imgs/new background.jpg'); /* Remplacez par votre image de fond */
+    background-size: cover; 
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.Quisuisje h1 {
+    margin-top: 8%; /* Espacement entre le titre et le contenu */
+    font-weight: 500;
+    font-size: 2rem; 
+}
+
+.Quisuisje .content {
+    display: flex;
+    align-items: center; /* Aligne l'image et le texte verticalement */
+    justify-content: center; /* Centre horizontalement le contenu */
+    gap: 10%; /* Espace entre le texte et l'image */
+    width: 90%; /* Largeur maximale du conteneur */
+}
+
+.Quisuisje p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.15rem;
+    text-align: left;
+    margin-top: 5%;
+    width: 50%; /* Largeur alignée avec l'image */
+}
+
+.Quisuisje img {
+    width: 30%; /* Taille de l'image alignée avec le texte */
+    height: auto; /* Garde les proportions de l'image */
+    margin-bottom: 10%;
+    transition: width 0.3s ease
+}
+
+
+
+.Compétences {
+    background-image: url('imgs/Capture\ d’écran\ 2025-01-16\ 094430-fotor-2025011694935.png'); /* Image de fond */
+    background-size: 90% 90%; 
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Disposer les éléments en colonne */
+    align-items: center; /* Centrer tout le contenu horizontalement */
+    justify-content: flex-start; /* Aligner le contenu en haut */
+    text-align: center;
+    padding: 50px 20px; /* Espace autour du contenu */
+    min-height: 100vh; /* Au moins la hauteur de la fenêtre */
+    box-sizing: border-box;
+}
+
+.Compétences h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 150%;
+    font-weight: 500;
+    margin-bottom: 20px; /* Réduire la marge sous le titre */
+}
+
+.Compétencec, .Compétencep, .Compétencess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Marge pour espacer les sections */
+    width: 100%;
+}
+
+.Compétencec h1, .Compétencep h1, .Compétencess h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-bottom: 10px;
+}
+
+.Compétencec p, .Compétencep p, .Compétencess p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 100%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 10px black solid;
+    background-color:black ;
+    transition: border 0.5s ease;
+}
+
+
+.Compétencec p:hover, .Compétencep p:hover, .Compétencess p:hover {
+    border: 5px gainsboro solid;
+
+}
+
+
+.ligne img{
+    position: absolute;
+    color: white;
+    width:85%;
+    height: 25%;
+    top: 90%;
+    left: 8%;
+    justify-content: center;
+
+}
+
+
+
+.ligne1 img{
+    position: absolute;
+    color: white;
+    width:85%;
+    height: 25%;
+    top: 212%;
+    left: 29%;
+    transform: translate(-25%,-25%);
+    justify-content: center;
+
+}
+.Projet {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('imgs/new background.jpg'); /* Remplacez par votre image de fond */
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Organise le contenu de .Projet en colonne */
+    justify-content: center; /* Centre le contenu verticalement */
+    align-items: center; /* Centre horizontalement */
+    text-align: center;
+    box-sizing: border-box;
+    height: 100vh; /* Assure que la section occupe toute la hauteur de la fenêtre */
+}
+
+.Projet h1 {
+    font-weight: 50;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 150%; /* Taille plus grande pour le titre principal */
+    color: white;
+    margin-bottom: 2%;
+
+}
+
+.Projet h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    color: white;
+    margin-bottom: 30px; /* Espacement plus important avant les projets */
+    max-width: 800px; /* Limite la largeur du texte pour le rendre plus lisible */
+    margin-bottom: 3%;
+    background-color:#003366;
+    width: 60%;
+    padding: 1%;
+    font-weight: 100;
+    transition: border 0.5s ease;
+}
+
+.Projet h2:hover{
+    border: 5px gainsboro solid;
+
+}
+
+
+.Projet1, .Projet2, .Projet3 {
+    display: flex;
+    flex-direction: column; /* Aligne les titres verticalement à l'intérieur de chaque projet */
+    justify-content: center; /* Centre verticalement le contenu dans chaque projet */
+    align-items: center; /* Centre horizontalement les titres à l'intérieur de chaque projet */
+    margin: 2%;
+    background: black; /* Fond semi-transparent pour chaque projet */
+    opacity: 0.8;
+    width: 20%; /* Largeur fixe pour chaque section de projet */
+    box-sizing: border-box; /* Garantit que les dimensions sont respectées */
+}
+
+.Projet1 h1, .Projet2 h1, .Projet3 h1 , .Projet4 h1{
+    font-weight: 200;
+    font-size: 100%; /* Taille réduite pour les titres de chaque projet */
+    padding: 0;
+    color: white;
+    transition: font-size 0.5s ease;
+}
+
+.Projet1:hover, .Projet2:hover, .Projet3:hover, .Projet4:hover {
+    font-size: 120%; /* Taille réduite pour les titres de chaque projet */
+    color: white;
+    text-decoration: underline;
+}
+
+.Projet4{
+    background-color: #003366;
+    width: 10%;
+}
+
+
+
+
+footer{
+    border: 20px solid #003366 	;
+    display: flex;
+    background-color: #003366 	;
+    color: white;
+    font-family: 'Montserrat' , sans-serif;
+    justify-content: space-between;
+}
+
+footer nav a {
+    background-color: black;
+    text-decoration: none; /* Enlève la soulignure par défaut */
+    color: white; /* Change la couleur du texte en blanc */
+    font-size:105%;
+    transition: font-size 0.5s ease ;
+}
+
+footer nav a:hover{
+    font-size:135%;
+    background-color: black;
+    text-decoration: underline;
+}

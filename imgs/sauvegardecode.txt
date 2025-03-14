@@ -1,0 +1,436 @@
+------------------------------------------------------------------------------------------------------------------------------------------
+
+HTML :
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="code css portfolio.css">
+    <title>Port Folio</title>
+</head>
+<body>
+
+<header>
+    <div class="header1">
+        <nav>
+            <p><a href="#accueil">Accueil</a></p>
+        </nav>
+    </div>
+
+    <div class="header2">
+        <nav>
+            <p><a href="#competences">Mes compétences</a></p>
+        </nav>
+    </div>
+
+    <div class="header3">
+        <nav>
+            <p><a href="#projets">Mes projets</a></p>
+        </nav>
+    </div>
+
+    <div class="header4">
+        <p>Helbert Valentin</p>
+    </div>
+</header>
+
+<div id="accueil" class="Quisuisje">
+    <h1>Qui suis-je ?</h1>
+    <div class="content">
+        <p>
+            Hello World, je m'appelle Valentin Helbert et je suis en première année de Bachelor Universitaire de Technologie en Informatique. Ma vie s'articule autour de plusieurs passions comme la programmation et l'imagination.<br><br>
+            Mes différentes compétences et projets sont présentés dans cette réalisation. Je vous invite à les découvrir ! N'hésitez pas à me contacter, et je vous remercie sincèrement pour votre visite !<br><br>
+        </p>
+        <img src="moiweb-removebg-preview.png" alt="Photo de Valentin Helbert">
+    </div>
+</div>
+
+<div class="ligne">
+    <img src="ligne-removebg-preview - Copie.PNG" alt="ligne">
+</div>
+
+<div id="competences" class="Compétences">
+    <h1>Mes compétences</h1>
+
+    <div class="Compétencec">
+        <h1><u>Compétence créative</u></h1>
+        <p>
+            Au cours de ma première année de Bachelor Universitaire de Technologie en informatique, j'ai eu l'opportunité de réaliser divers projets en utilisant des outils comme Canva, qui m'a permis de créer des affiches et des présentations, ainsi que Figma, grâce auquel j'ai conçu des maquettes et des prototypes de sites web. <br><br>Cependant, sur mon temps personnel, j'apprécie fortement l'utilisation de Canva et des logiciels de montage vidéo !
+        </p>
+    </div>
+
+    <div class="Compétencep">
+        <h1><u>Compétence de programmation</u></h1>
+        <p>
+            Au cours de cette année, j'ai également pu mener à bien des projets liés à la programmation en utilisant des langages tels que Java et Python, ainsi que des technologies orientées vers la conception de sites web comme HTML et CSS.  <br><br>Par ailleurs, nous avons travaillé dans le domaine des réseaux, notamment avec des scripts Bash et Shell.
+        </p>
+    </div>
+
+    <div class="Compétencess">
+        <h1><u>Compétence de communication</u></h1>
+        <p>
+            Mes quatre années d'expérience dans le domaine de l'informatique ne se sont pas limitées à des aspects purement techniques.  <br><br>Elles m'ont également permis de développer des compétences en savoir-être et en savoir-faire. <br><br> En effet, ma communication a été grandement renforcée grâce à des projets à visée professionnalisante.  <br><br>Par ailleurs, des disciplines comme l'économie, le droit et la gestion de projet ont significativement contribué à améliorer ma capacité à me démarquer par une communication efficace et adaptée.
+        </p>
+    </div>
+</div>
+
+<div class="ligne1">
+    <img src="ligne-removebg-preview - Copie.PNG" alt="ligne1">
+</div>
+
+<div id="projets" class="Projet">
+    <h1>Mes Projets</h1>
+    <h2>Mes projets ont été réalisés en classe ou sur mon temps personnel. <br>Si cela suscite votre curiosité ou vos questions, n'hésitez pas à me contacter via mes contacts.</h2>
+
+    <div class="Projet1">
+        <h1>
+            Projets de Maquetage.
+            
+        </h1>
+
+    </div>
+
+    <div class="Projet2">
+        <h1>
+            Projets D'affichage.
+            
+        </h1>
+    </div>
+
+    <div class="Projet3">
+        <h1>
+            Projets de Programmation.
+            
+        </h1>
+    </div>
+    
+    <div class="Projet4">
+        <h1>
+            Voir plus +
+            
+        </h1>
+
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer1">
+        <nav>
+            <p><a href="https://www.instagram.com/valentin.hlbt/">Mon Instagram <!--<img src="logo insta.png"width="5%">--></a></p>
+        </nav>
+        
+    </div>
+
+    <div class="footer2">
+        <nav>
+            <p><a href="#mail">Mon Adresse <!--<img src="logo_gmail-removebg-preview.png"width="15%">--></a></p>
+        </nav>
+    </div>
+
+    <div class="footer3">
+        <nav>
+            <p><a href="https://www.linkedin.com/in/valentin-helbert-787284341/">Mon LinkedIn <!--<img src="linkedIn_PNG8.png" width="5%">--></a></p>
+        </nav>
+    </div>
+
+</footer>
+
+</body>
+
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+CSS :
+
+------------------------------------------------------------------------------------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&display=swap');
+
+html {
+    scroll-behavior: smooth; /* Active un défilement fluide */
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header{
+    border: 20px solid #003366 	;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366 	;
+    opacity: 0.8;
+    color: white;
+    position: fixed;
+    z-index: 10;
+    width: 98%;
+    font-family: 'Montserrat' , sans-serif;
+    
+}
+
+header nav a {
+    text-decoration: none; /* Enlève la soulignure par défaut */
+    color: white; /* Change la couleur du texte en blanc */
+    font-size: 90%;
+    padding: 10px;
+    transition: font-size 0.3s ease
+}
+
+header nav a:hover {
+    color: black; /* Change la couleur du texte au survol en bleu foncé */
+    font-size: 110%;
+    text-decoration: underline;
+}
+
+
+.header1 , .header2 , .header3{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 125%;
+    color: aliceblue;
+}
+
+.header4{
+    margin-left: auto;
+    font-size: 150%;
+
+}
+
+.Quisuisje {
+    background-image: url('new background.jpg'); /* Remplacez par votre image de fond */
+    background-size: cover; 
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.Quisuisje h1 {
+    margin-top: 8%; /* Espacement entre le titre et le contenu */
+    font-weight: 500;
+    font-size: 2rem; 
+}
+
+.Quisuisje .content {
+    display: flex;
+    align-items: center; /* Aligne l'image et le texte verticalement */
+    justify-content: center; /* Centre horizontalement le contenu */
+    gap: 10%; /* Espace entre le texte et l'image */
+    width: 90%; /* Largeur maximale du conteneur */
+}
+
+.Quisuisje p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.15rem;
+    text-align: left;
+    margin-top: 5%;
+    width: 50%; /* Largeur alignée avec l'image */
+}
+
+.Quisuisje img {
+    width: 30%; /* Taille de l'image alignée avec le texte */
+    height: auto; /* Garde les proportions de l'image */
+    margin-bottom: 10%;
+    transition: width 0.3s ease
+}
+
+
+
+.Compétences {
+    background-image: url('Capture\ d’écran\ 2025-01-16\ 094430-fotor-2025011694935.png'); /* Image de fond */
+    background-size: 90% 90%; 
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Disposer les éléments en colonne */
+    align-items: center; /* Centrer tout le contenu horizontalement */
+    justify-content: flex-start; /* Aligner le contenu en haut */
+    text-align: center;
+    padding: 50px 20px; /* Espace autour du contenu */
+    min-height: 100vh; /* Au moins la hauteur de la fenêtre */
+    box-sizing: border-box;
+}
+
+.Compétences h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 150%;
+    font-weight: 500;
+    margin-bottom: 20px; /* Réduire la marge sous le titre */
+}
+
+.Compétencec, .Compétencep, .Compétencess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Marge pour espacer les sections */
+    width: 100%;
+}
+
+.Compétencec h1, .Compétencep h1, .Compétencess h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-bottom: 10px;
+}
+
+.Compétencec p, .Compétencep p, .Compétencess p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 100%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 10px black solid;
+    background-color:black ;
+    transition: border 0.5s ease;
+}
+
+
+.Compétencec p:hover, .Compétencep p:hover, .Compétencess p:hover {
+    border: 5px gainsboro solid;
+
+}
+
+
+.ligne img{
+    position: absolute;
+    color: white;
+    width:85%;
+    height: 25%;
+    top: 90%;
+    left: 8%;
+    justify-content: center;
+
+}
+
+
+
+.ligne1 img{
+    position: absolute;
+    color: white;
+    width:85%;
+    height: 25%;
+    top: 212%;
+    left: 29%;
+    transform: translate(-25%,-25%);
+    justify-content: center;
+
+}
+.Projet {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('new background.jpg'); /* Remplacez par votre image de fond */
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Organise le contenu de .Projet en colonne */
+    justify-content: center; /* Centre le contenu verticalement */
+    align-items: center; /* Centre horizontalement */
+    text-align: center;
+    box-sizing: border-box;
+    height: 100vh; /* Assure que la section occupe toute la hauteur de la fenêtre */
+}
+
+.Projet h1 {
+    font-weight: 50;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 150%; /* Taille plus grande pour le titre principal */
+    color: white;
+    margin-bottom: 2%;
+
+}
+
+.Projet h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    color: white;
+    margin-bottom: 30px; /* Espacement plus important avant les projets */
+    max-width: 800px; /* Limite la largeur du texte pour le rendre plus lisible */
+    margin-bottom: 3%;
+    background-color:#003366;
+    width: 60%;
+    padding: 1%;
+    font-weight: 100;
+    transition: border 0.5s ease;
+}
+
+.Projet h2:hover{
+    border: 5px gainsboro solid;
+
+}
+
+
+.Projet1, .Projet2, .Projet3 {
+    display: flex;
+    flex-direction: column; /* Aligne les titres verticalement à l'intérieur de chaque projet */
+    justify-content: center; /* Centre verticalement le contenu dans chaque projet */
+    align-items: center; /* Centre horizontalement les titres à l'intérieur de chaque projet */
+    margin: 2%;
+    background: black; /* Fond semi-transparent pour chaque projet */
+    opacity: 0.8;
+    width: 20%; /* Largeur fixe pour chaque section de projet */
+    box-sizing: border-box; /* Garantit que les dimensions sont respectées */
+}
+
+.Projet1 h1, .Projet2 h1, .Projet3 h1 , .Projet4 h1{
+    font-weight: 200;
+    font-size: 100%; /* Taille réduite pour les titres de chaque projet */
+    padding: 0;
+    color: white;
+    transition: font-size 0.5s ease;
+}
+
+.Projet1:hover, .Projet2:hover, .Projet3:hover, .Projet4:hover {
+    font-size: 120%; /* Taille réduite pour les titres de chaque projet */
+    color: white;
+    text-decoration: underline;
+}
+
+.Projet4{
+    background-color: #003366;
+    width: 10%;
+}
+
+
+
+
+footer{
+    border: 20px solid #003366 	;
+    display: flex;
+    background-color: #003366 	;
+    color: white;
+    font-family: 'Montserrat' , sans-serif;
+    justify-content: space-between;
+}
+
+footer nav a {
+    background-color: black;
+    text-decoration: none; /* Enlève la soulignure par défaut */
+    color: white; /* Change la couleur du texte en blanc */
+    font-size:105%;
+    transition: font-size 0.5s ease ;
+}
+
+footer nav a:hover{
+    font-size:135%;
+    background-color: black;
+    text-decoration: underline;
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
